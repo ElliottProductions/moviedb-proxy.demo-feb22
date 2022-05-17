@@ -8,7 +8,6 @@ function App() {
 
   async function load() {
     const data = await getMonsters(search);
-    console.log(data);
     setMonsters(data);
   }
 
